@@ -109,7 +109,7 @@ def extraer_previews(ruta_cdr: str) -> list[dict]:
 # Este bloque solo se ejecuta si corremos "python app/extractor.py" directamente
 # (no se ejecuta si otro archivo importa este módulo). Es nuestra prueba rápida.
 if __name__ == "__main__":
-    ruta_prueba = r"D:\DISEÑO 2026\huntryx morado diseño.cdr"
+    ruta_prueba = r"D:\DISEÑO 2026\7 logos diseño PASAR PHOTOSHOP 1ero.cdr"
     previews = extraer_previews(ruta_prueba)
 
     print(f"\n✅ Se extrajeron {len(previews)} preview(s):")
